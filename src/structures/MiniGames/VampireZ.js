@@ -36,6 +36,7 @@ class VampireZ {
     this.vampire = {
       kills: data.vampire_kills || 0,
       deaths: data.vampire_deaths || 0,
+      wins: data.vampire_wins || 0,
       KDRatio: divide(data.vampire_kills, data.vampire_wins)
     };
   }
