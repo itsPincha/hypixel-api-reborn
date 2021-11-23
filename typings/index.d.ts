@@ -790,7 +790,7 @@ declare module 'hypixel-api-reborn' {
       kills: number
     };
     vampire: {
-      kills: number, deaths: number, KDRatio: number
+      kills: number, deaths: number, wins: number, KDRatio: number
     };
   }
   class SmashHeroes {
